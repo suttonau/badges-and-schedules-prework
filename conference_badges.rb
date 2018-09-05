@@ -12,7 +12,7 @@ def batch_badge_creator(array)
    badge_message
 end 
 
-def assign_rooms(name)
+def assign_rooms(array)
   room_list = []
   
   array.each_with_index { |name, index|
